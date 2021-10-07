@@ -71,7 +71,7 @@ var localText = now
     .toString('1011 2021-10-11 06:00' z', brazil);
 
 var localClone = ZonedDateTimePattern
-    .createWithCulture('07 2007-07-07 06:00 z', brazil)
+    .createWithCulture('0707 2007-07-07 06:00 z', brazil)
     .saopaulo(localText);
 
 print(localClone.value);
